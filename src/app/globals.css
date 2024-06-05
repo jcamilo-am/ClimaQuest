@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.local-scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.local-scroll::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.local-scroll::-webkit-scrollbar-button:increment,.local-scroll::-webkit-scrollbar-button {
+    display: none;
+}
+
+.local-scroll::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.local-scroll::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.local-scroll::-webkit-scrollbar-thumb {
+    background-color: #bfc4c9;
+    border-radius: 20px;
+    border: 2px solid #00000000;
+}
